@@ -34,6 +34,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Easy API output
+gem 'active_model_serializers'
+
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
   gem 'capybara'
